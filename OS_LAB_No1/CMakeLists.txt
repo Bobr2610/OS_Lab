@@ -5,4 +5,5 @@ set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 set(CMAKE_C_EXTENSIONS OFF)
 
-add_executable(batcher_sort src/batcher_sort.c)
+add_executable(lab_01_parent src/parent.c)
+add_executable(lab_01_child  src/child.c)
