@@ -25,11 +25,6 @@ Unix. Ограничение максимального количества п�
 
 ### Компиляция напрямую
 
-**Windows (MinGW):**
-```sh
-gcc -o batcher_sort.exe src/main.c -std=c17
-```
-
 **Linux/Unix:**
 ```sh
 gcc -o batcher_sort src/main.c -std=c17 -pthread
